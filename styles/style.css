@@ -1,0 +1,67 @@
+body {
+    background-color: #171f36;
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0%;
+}
+
+h2 {
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.optionButtons {
+    color: whitesmoke;
+    display: grid;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.optionButtons > button {
+    background-color: transparent;
+    border: none;
+}
+
+.choiceButtons {
+    display: grid;
+    grid-template-columns: 180px 180px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+button {
+    background-color: #547d7f;
+    border-color: black;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 21px;
+    height: 60px;
+    margin: 20px 10px 20px 10px;
+    border-radius: 10px;
+}
+
+button:active,
+button:focus {
+    border: 2px solid whitesmoke;
+}
+
+.special {
+    background-image: linear-gradient(to bottom right, #44738d, #7095a5);
+    color: #171f36;
+    font-weight: 800;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 25px;
+}
