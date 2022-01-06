@@ -45,7 +45,7 @@ button:hover {
     margin-top: 10px;
 }
 
-.special {
+#special {
     background-image: linear-gradient(to bottom right, #44738d, #7095a5);
     color: #171f36;
     font-weight: bolder;

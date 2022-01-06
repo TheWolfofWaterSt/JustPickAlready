@@ -7,7 +7,7 @@
     <title>Just Pick Already</title>
 
     <link rel="stylesheet" href="styles/style.css">
-    <script src="scripts/script.js" async></script>
+    <script src="scripts/index.js" async></script>
 </head>
 <body>
     <header>
@@ -16,16 +16,16 @@
     </header>
 
     <div class="choiceButtons">
-        <button type="button">Sit Down</button>
-        <button type="button">Fast Food</button>
-        <button type="button">Quick Sit Down</button>
-        <button type="button">Delivery</button>
-        <button type="button">All Restaurants</button>
-        <button type="button" class="special">Special</button>
+        <button type="button" id="sitDown" onclick="pickRestaurants(this)">Sit Down</button>
+        <button type="button" id="fastFood" onclick="pickRestaurants(this)">Fast Food</button>
+        <button type="button" id="quickSitDown" onclick="pickRestaurants(this)">Quick Sit Down</button>
+        <button type="button" id="delivery" onclick="pickRestaurants(this)">Delivery</button>
+        <button type="button" id="allRestaurants" onclick="pickRestaurants(this)">All Restaurants</button>
+        <button type="button" id="special" onclick="pickRestaurants(this)">Special</button>
     </div>
 
-    <h2 class="option1">-</h2>
-    <h2 class="option2">-</h2>
-    <h2 class="option3">-</h2>
+    <h2 id="option1">-</h2>
+    <h2 id="option2">-</h2>
+    <h2 id="option3">-</h2>
 </body>
 </html>
