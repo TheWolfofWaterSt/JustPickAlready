@@ -48,7 +48,7 @@ button:hover {
 .special {
     background-image: linear-gradient(to bottom right, #44738d, #7095a5);
     color: #171f36;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 img {
