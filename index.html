@@ -10,22 +10,24 @@
     <script src="scripts/index.js" async></script>
 </head>
 <body>
-    <header>
-        <img src="images/RestaurantHeader.png" alt="A family table with dinner being served">
-        <h1>Just Pick Already!</h1>
-    </header>
-
-    <div class="choiceButtons">
-        <button type="button" id="sitDown" onclick="pickRestaurants(this)">Sit Down</button>
-        <button type="button" id="fastFood" onclick="pickRestaurants(this)">Fast Food</button>
-        <button type="button" id="quickSitDown" onclick="pickRestaurants(this)">Quick Sit Down</button>
-        <button type="button" id="delivery" onclick="pickRestaurants(this)">Delivery</button>
-        <button type="button" id="allRestaurants" onclick="pickRestaurants(this)">All Restaurants</button>
-        <button type="button" id="special" onclick="pickRestaurants(this)">Special</button>
+    <div id="container">
+        <header>
+            <img src="images/RestaurantHeader.png" alt="A family table with dinner being served">
+            <h1>Just Pick Already!</h1>
+        </header>
+    
+        <div class="choiceButtons">
+            <button type="button" id="sitDown" onclick="pickRestaurants(this)">Sit Down</button>
+            <button type="button" id="fastFood" onclick="pickRestaurants(this)">Fast Food</button>
+            <button type="button" id="quickSitDown" onclick="pickRestaurants(this)">Quick Sit Down</button>
+            <button type="button" id="delivery" onclick="pickRestaurants(this)">Delivery</button>
+            <button type="button" id="allRestaurants" onclick="pickRestaurants(this)">All Restaurants</button>
+            <button type="button" id="special" onclick="pickRestaurants(this)">Special</button>
+        </div>
+    
+        <h2 id="option1">-</h2>
+        <h2 id="option2">-</h2>
+        <h2 id="option3">-</h2>
     </div>
-
-    <h2 id="option1">-</h2>
-    <h2 id="option2">-</h2>
-    <h2 id="option3">-</h2>
 </body>
 </html>
