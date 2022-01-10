@@ -11,7 +11,7 @@ const fastFood = ["Arby's","Burger King","Culver's","Dairy Queen","Erberts and G
 
 const quickSitDown = ["Acoustic Café","Cabin Coffee Company","Cancun Mexican Grill","Charleys Philly Steaks","China Max","Chipotle","Cousins Subs","Dhimiters","Eau Claire Cheese and Deli",
                       "ECDC Eau Claire Downtown Coffee","Fazoli's","Firehouse Subs","Five Guys","Gyro King Restaurant & Cafe","HyVee","JimBob's Pizza Shop","Johnny's Pizza Shop",
-                      "Kobe's Japanese","Noodles & Company","Panera Bread","Roadside Ice Cream and Diner","Rocky Rococo Pizza and Pasta"];
+                      "Kobe's Japanese","Noodles & Company","Panera Bread","Roadside Ice Cream and Diner","Rocky Rococo Pizza and Pasta", "Mancino's"];
 
 const delivery = ["Applebee's Neighborhood Grill & Bar","Arby's","Buffalo Wild Wings","Burger King","Chipotle","Domino's","Egg Roll Plus","Fazoli's","Firehouse Subs","Five Guys",
                   "Geno's Pizza","Godfather's Pizza","Golden Dragon","Golden Spike Bar & Grill","Grand Avenue Café","JimBob's Pizza Shop","Johnny's Pizza Shop","KFC","Little Caesar's",
@@ -43,7 +43,8 @@ const allRestaurants = ["29 Pines Family Restaurant and Lodge Bar","4 Mile Resta
                         "The Depot","The District Pub & Grill","The Fire House","The French Press","The Goat Coffee House","The Growler Guys","The Informalist",
                         "The Lakely (at The Oxbow Hotel)","The Livery (aka Cowtown Saloon)","The Living Room Coffee House & Roastery","The Maple Lounge","The Nostalgic Bean Coffee House & French Bakery",
                         "The Nucleus Café","The Plus","The Red Mixer","The Red Room","The Rev (Temp closed)","The Sports Page Bar","The VFW","The Welcome Matt","Tokyo Japanese Restaurant","Toppers Pizza",
-                        "Vs. (Versus) at 44 North","Wagner's Lanes and The Complexx","Wendy's","Westside Bar & Grill","Wigwam Tavern","Wild Ridge Clubhouse Bar and Grill","Wisco's","Za 51 Pizzeria"];
+                        "Vs. (Versus) at 44 North","Wagner's Lanes and The Complexx","Wendy's","Westside Bar & Grill","Wigwam Tavern","Wild Ridge Clubhouse Bar and Grill","Wisco's","Za 51 Pizzeria",
+                        "Mancino's"];
 
 const special = ["4 Mile Restaurant & Bar","400 Club","Akame Sushi","Bijou Bistro","Brickhouse Pub & Grub","Eau Juicy","Five & Two Café","Fox Run Tavern","Happy Hollow Tavern",
                  "Hilltop Tavern","Hobbsy's","Jay Ray's Deli","Red Coal BBQ","Silly Serrano Mexican Restaurant","Sweet Driver Chocolate Cafe","Teriyaki Madness","The Goat Coffee House",
